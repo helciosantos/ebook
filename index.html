@@ -40,21 +40,22 @@
     <!-- Modal -->
     <div class="modal fade" id="telaEmail" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLabel"><b>Digite seu email para Download</b></h5>
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
+            <div class="modal-content">
+                <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel"><b>Download do ebook</b></h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <p>Para fazer o download, digite seu email e receba o link direto para o ebook.</p>
+                    <input type="email" class="form-control space-margin" id="emailTxt" placeholder="Digite seu email">
+                    <!-- <textarea class="form-control" id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea> -->
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-warning btn-block" data-dismiss="modal" onclick="enviar()"><b>Enviar</b></button>
+                </div>
             </div>
-            <div class="modal-body">
-                <input type="email" class="form-control space-margin" id="emailTxt" placeholder="Digite seu email">
-                <!-- <textarea class="form-control" id="areaTxt" rows="3" placeholder="Escreva sua mensagem"></textarea> -->
-            </div>
-            <div class="modal-footer">
-            <button type="button" class="btn btn-warning btn-block" data-dismiss="modal" onclick="enviar()"><b>Enviar</b></button>
-            </div>
-        </div>
         </div>
     </div>
 
